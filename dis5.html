@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		#logo{
+			float: left;
+			margin-top: 10px;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		#page{
+			width: 1300px;
+			margin: auto;
+			border: 0px solid #bbbbbb;
+		}
+		header{
+			width: 1300px;
+			height: 100px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav{
+			width: 1300px;
+			height: 70px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav li{
+			display: inline-block;
+			margin: 10px 30px;
+		}
+
+		#me6 a{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me6:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me6:hover{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me5 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me5:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me5:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me3 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me3:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me3:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me4:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me4:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me1 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me1:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me1:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me2 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me2:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#me2:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#s1{
+			font-size: 25px;
+			color: black;
+			font-weight: normal;
+		}
+		#left{
+			float: left;
+			margin: 50px 0 0 30px;
+			height: 1000px;
+		}
+
+		#border1{
+			border: solid 0px #3EB489;
+			width: 250px;
+			background-color: #3EB489;
+			font-size: 18px;
+			padding: 10px;
+			color: white;
+		}
+		#border2{
+			border: solid 0px #e2e2e2;
+			width: 230px;
+			background-color: #e2e2e2;
+			font-size: 17px;
+			padding: 20px;
+		}
+
+		#border3{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border4{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border5{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border6{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border7{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border8{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border9{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border10{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#sp1{
+			color: #3EB489;
+		}
+		
+		#sp1 a{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#sp1:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#sp1:hover{
+			color: #3EB489;
+			text-decoration: underline;
+		}
+
+		#sp2 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp2:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp2:hover{
+			color: black;
+			text-decoration: underline;
+		}
+
+		#sp3 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp3:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp3:hover{
+			color: black;
+			text-decoration: underline;
+		}
+
+		#sp4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp4:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp4:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp5 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp5:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp5:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp6 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp6:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp6:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp7 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp7:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp7:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp8 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp8:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp8:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp9 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp9:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp9:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp10 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp10:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp10:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp11 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp11:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp11:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sub1{
+			border: 0px solid #ffffff;
+			width: 1200px;
+			padding: 52px;
+		}
+		#span1{
+			font-size: 26px;
+			font-weight: bold;
+			margin-left: 17px;
+			margin-top: -40px;
+		}
+		#span2{
+			font-size: 14px;
+			margin-left: 30px;
+			margin-top: -60px;
+		}
+		#span3{
+			color: #a2a2a2;
+		}
+		#hr1{
+			width: 900px;
+			margin-top: 20px;
+			border: solid 1px black;
+		}
+		#hr2{
+			width: 900px;
+			border: lighter 1px black;
+		}
+
+		#im1{
+			margin-left: 20px;
+		}
+
+		#im2{
+			margin-left: 20px;
+		}
+		#foot{
+			margin: 0 0 0 30px;
+		}
+	</style>
+</head>
+<body id="page">
+	<header>
+		<div id="logo">
+			<a href="./index.html"><img src="./img/kcdc.png"></a>
+		</div>
+		<div id="top">
+			로그인 | 회원가입 | <span id="me2"><a href="./8.html" target="_blank">마이페이지</a></span> | 고객센터
+		</div>
+	</header>
+	<div class="clear"></div>
+
+	<nav>
+		<ul>
+			<li><span id="me3"><a href="./dis2.html">감염병</a></span></li>
+			<li><span id="me4"><a href="./dis3.html">건강정보</a></span></li>
+			<li><span id="me5"><a href="./dis4.html">정책정보</a></span></li>
+			<li><span id="me1"><a href="./dis.html">연구개발</a></span></li>
+			<li>알림.자료</li>
+			<li>간행물.통계</li>
+			<li>민원.정보공개</li>
+			<li><span id="me6"><a href="./dis5.html">기관소개</a></span></li>
+			<li>사업별홈페이지</li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+
+	<aside id="left">
+		<span id="s1">기관소개</span>
+		<p></p>
+		<div id="border1">
+			소개
+		</div>
+		<div id="border2">
+			 · <span id="sp1"><a href="./dis5.html">인사말</a> -</span> <p>
+			 · <span id="sp2"><a href="http://www.cdc.go.kr/contents.es?mid=a20801020000">약력</a></span> <p>
+
+		</div>
+		<div id="border3">
+			<span id="sp4"><a href="http://www.cdc.go.kr/contents.es?mid=a20802000000">비전과미션</a></span>
+			<hr>
+		</div>
+		<div id="border4">
+			<span id="sp5"><a href="http://www.cdc.go.kr/contents.es?mid=a20803000000">핵심사업</a></span>
+			<hr>
+		</div>
+		<div id="border5">
+			<span id="sp6"><a href="http://www.cdc.go.kr/contents.es?mid=a20804000000">연혁</a></span>
+			<hr>
+		</div>
+		<div id="border6">
+			<span id="sp7"><a href="http://www.cdc.go.kr/contents.es?mid=a20805000000">조직·직원찾기</a></span>
+			<hr>
+		</div>
+		<div id="border7">
+			<span id="sp8"><a href="http://www.cdc.go.kr/contents.es?mid=a20806000000">정부상징</a></span>
+			<hr>
+		</div>
+		<div id="border8">
+			<span id="sp9"><a href="http://www.cdc.go.kr/contents.es?mid=a20807000000">오시는길</a></span>
+			<hr>
+		</div>
+		<div id="border9">
+			<span id="sp10"><a href="http://www.cdc.go.kr/contents.es?mid=a20808000000">시설안내</a></span>
+			<hr>
+		</div>
+		<div id="border10">
+			<span id="sp11"><a href="http://www.cdc.go.kr/contents.es?mid=a20810010000">누리집이용안내</a></span>
+			<hr>
+		</div>
+	</aside>
+
+	<section id="sub1">
+		<span id="span1">교통사고</span>
+		<hr id="hr1">
+		<span id="span2"><span id="span3">작성일</span> 2019-05-16 | <span id="span3">최종수정일</span> 2019-12-19 | <span id="span3">담당부서</span> 운영지원팀 | <span id="span3">연락처</span> 043-719-7007</span>
+		<hr id="hr2">
+		<p></p>
+
+		<span id="im1"><img src="./img/pp1.png" alt=""></span><p></p>
+		<span id="im2"><img src="./img/pp2.png" alt=""></span><p></p>
+	</section>
+
+	<footer>
+		<div id="foot">
+			<img src="./img/ft.png" alt="">
+		</div>
+	</footer>
+
+</body>
+</html>

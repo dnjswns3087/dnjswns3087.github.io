@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		#logo{
+			float: left;
+			margin-top: 10px;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		#page{
+			width: 1300px;
+			margin: auto;
+			border: 0px solid #bbbbbb;
+		}
+		header{
+			width: 1300px;
+			height: 100px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav{
+			width: 1300px;
+			height: 70px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav li{
+			display: inline-block;
+			margin: 10px 30px;
+		}
+
+		#me3 a{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me3:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me3:hover{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me5 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me5:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me5:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me4:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me4:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me1 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me1:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me1:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me6 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me6:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me6:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me2 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me2:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#me2:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#border1{
+			border: solid 0px #3EB489;
+			width: 240px;
+			background-color: #3EB489;
+			font-size: 18px;
+			padding: 10px;
+			color: white;
+		}
+
+		#border3{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border4{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border5{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border6{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border7{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+
+		#left{
+			float: left;
+			height: 1200px;
+			margin: 50px 0 0 30px;
+		}
+		#s1{
+			font-size: 25px;
+			color: black;
+			font-weight: normal;
+		}
+
+		#sp4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp4:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp4:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp5 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp5:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp5:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp6 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp6:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp6:hover{
+			color: black;
+			text-decoration: none;
+		}
+		#sp7 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp7:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp7:hover{
+			color: black;
+			text-decoration: none;
+		}
+		#sp8 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp8:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp8:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sub1{
+			border: 0px solid #ffffff;
+			width: 1200px;
+			padding: 52px;
+		}
+		#sub2{
+			border: 0px solid #ffffff;
+			width: 1200px;
+			padding: 52px;
+		}
+		#span1{
+			font-size: 26px;
+			font-weight: bold;
+			margin-left: 17px;
+			margin-top: -40px;
+		}
+		#span2{
+			font-size: 14px;
+			margin-left: 30px;
+			margin-top: -60px;
+		}
+		#span3{
+			color: #a2a2a2;
+		}
+		#hr1{
+			width: 900px;
+			margin-top: 20px;
+			border: solid 1px black;
+		}
+		#hr2{
+			width: 900px;
+			border: lighter 1px black;
+		}
+		#span4{
+			margin-left: 30px;
+		}
+		#t1{
+			color: #051257;
+			font-size: 20px;
+			font-weight: bold;
+			margin-left: 30px;
+		}
+		#t2{
+			margin-left: 62px;
+		}
+		#foot{
+			margin: 0 0 0 30px;
+		}
+		
+		#t1under{
+			color: #051257;
+			font-size: 20px;
+			font-weight: bold;
+			margin-left: 30px;
+			text-decoration: underline;
+		}
+		#t1under a{
+			color: #051257;
+			text-decoration: underline;
+		}
+		#t1under:hover a{
+			text-decoration: none;
+			color: #051257;
+		}
+		#t1under:hover{
+			color: #051257;
+			text-decoration: underline;
+		}
+
+
+
+		#under a{
+			color: #000080;
+			text-decoration: underline;
+		}
+		#under:hover a{
+			text-decoration: none;
+			color: #000080;
+		}
+		#under:hover{
+			color: #000080;
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+<body id="page">
+	<header>
+		<div id="logo">
+			<a href="./index.html"><img src="./img/kcdc.png"></a>
+		</div>
+		<div id="top">
+			로그인 | 회원가입 | <span id="me2"><a href="./8.html" target="_blank">마이페이지</a></span> | 고객센터
+		</div>
+	</header>
+	<div class="clear"></div>
+
+	<nav>
+		<ul>
+			<li><span id="me3"><a href="./dis2.html">감염병</a></span></li>
+			<li><span id="me4"><a href="./dis3.html">건강정보</a></span></li>
+			<li><span id="me5"><a href="./dis4.html">정책정보</a></span></li>
+			<li><span id="me1"><a href="./dis.html">연구개발</a></span></li>
+			<li>알림.자료</li>
+			<li>간행물.통계</li>
+			<li>민원.정보공개</li>
+			<li><span id="me6"><a href="./dis5.html">기관소개</a></span></li>
+			<li>사업별홈페이지</li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+
+	<aside id="left">
+		<span id="s1">감염병</span>
+		<p></p>
+		<div id="border1">
+			감염병정보
+		</div>
+		<br>
+		<div id="border3">
+			<span id="sp4"><a href="http://www.cdc.go.kr/cdc/travelList.es?mid=a20102010101">해외감염정보</a></span>
+			<hr>
+		</div>
+		<div id="border4">
+			<span id="sp5"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppIssueIcdMain.do" target="_blank">감염병유행정보<img src="./img/ic.png" alt=""></a></span>
+			<hr>
+		</div>
+		<div id="border5">
+			<span id="sp6"><a href="http://tbzero.cdc.go.kr/tbzero/main.do?pageEvent=N" target="_blank">결핵<img src="./img/ic.png" alt=""></a></span>
+			<hr>
+		</div>
+		<div id="border6">
+			<span id="sp7"><a href="https://nip.cdc.go.kr/irgd/index.html" target="_blank">예방접종<img src="./img/ic.png" alt=""></a></span>
+			<hr>
+		</div>
+		<div id="border7">
+			<span id="sp8"><a href="./dis.html">감염병간행물</a></span>
+			<hr>
+		</div>
+	</aside>
+
+	<section id="sub1">
+		<span id="span1">감염병정보</span>
+		<hr id="hr1">
+		<span id="span2"><span id="span3">작성일</span> 2019-05-15 | <span id="span3">최종수정일</span> 2020-06-12 | <span id="span3">담당부서</span> 의료감염관리과 | <span id="span3">연락처</span> 043-719-7124</span>
+		<hr id="hr2">
+		<div id="span4">
+			<a href="http://www.cdc.go.kr/npt/biz/npp/nppMain.do" target="_blank"><img src="./img/g1.png" alt=""></a>
+		</div>
+		<p></p>
+		
+		<span id="t1"><img src="./img/ic2.png" alt=""> 감염병포털 소개</span><p></p>
+		<span id="t2">법정감염병(전수/표본)의 현황(통계) 및 올바른 정보를 국민들이 쉽게 접근할 수 있는 <span id="under"><a href="http://www.cdc.go.kr/npt/" target="blank">감염병 정보 포털사이트<img src="./img/ic.png" alt=""></a></span></span><p></p>
+
+		<span id="t1"><img src="./img/ic2.png" alt=""> 통계</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/ist/simple/simplePdStatsMain.do" target="blank">전수감시 감염병<img src="./img/ic.png" alt=""></a></span>: 전수감시 감염병에 대한 주요통계, 질병별 통계, 지역별 통계, 성별/연령별 통계에 대한 통계</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/iss/influenzaStatisticsMain.do" target="blank">표본감시 감염병<img src="./img/ic.png" alt=""></a></span>: 표본감시 감염병에 대한 통계</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/iss/influenzaStatisticsMain.do" target="blank">비브리오 감시<img src="./img/ic.png" alt=""></a></span>: 해수에서 측정한 비브리오 통계</span><p></p>
+
+		<span id="t1under"> <img src="./img/ic2.png" alt=""><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=7" target="blank">지침<img src="./img/ic.png" alt=""></a></span><p></p>
+		<span id="t2">· 법정감염병의 증상, 진단 및 치료, 신고기준, 예방과 같은 정보</span><p></p>
+		<span id="t2">· 감염병 관리, 각 기관에서 해야하는 수행체계, 감시체계, 실험실 검사, 역학조사, 환자관리/접촉자 관리, 방역관리 관련 정보</span><p></p>
+
+		<span id="t1"><img src="./img/ic2.png" alt=""> 발간자료</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=1" target="blank">감시연보<img src="./img/ic.png" alt=""></a></span>: 감염병 신고·보고된 법정감염병 현황을 분석 정리한 자료</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=5" target="blank">역학조사연보<img src="./img/ic.png" alt=""></a></span>: 시·군·구 역학조사반의 신고 접수된 수인성·식품매개 감염병 집단발생에 분석 정리한 자료</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=2" target="blank">주간소식지<img src="./img/ic.png" alt=""></a></span>: 표본감시 감염병 주간 정보</span><p></p>
+		<span id="t2">· <span id="under"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=3" target="blank">실험실 소식지 정보<img src="./img/ic.png" alt=""></a></span>: 병원체 및 매개체 주간 감시 정보</span><p></p>
+
+	</section>
+
+	<footer>
+		<div id="foot">
+			<img src="./img/ft.png" alt="">
+		</div>
+	</footer>
+
+</body>
+</html>

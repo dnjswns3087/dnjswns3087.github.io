@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		#logo{
+			float: left;
+			margin-top: 10px;
+		}
+		#top{
+			float: right;
+			margin: 30px 20px 0 0;
+		}
+		#page{
+			width: 1300px;
+			margin: auto;
+			border: 0px solid #bbbbbb;
+		}
+		header{
+			width: 1300px;
+			height: 100px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav{
+			width: 1300px;
+			height: 70px;
+			margin-top: 10px;
+			border: 0px solid #bbbbbb;
+		}
+		nav li{
+			display: inline-block;
+			margin: 10px 30px;
+		}
+
+		#me5 a{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me5:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me5:hover{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#me1 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me1:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me1:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me3 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me3:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me3:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me4:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me4:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me6 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me6:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#me6:hover{	
+			color: #3EB489;
+			text-decoration: none;
+		}
+
+		#me2 a{
+			color: black;
+			text-decoration: none;
+		}
+		#me2:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#me2:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#left{
+			float: left;
+			height: 1000px;
+			margin: 50px 0 0 30px;
+		}
+		#s1{
+			font-size: 25px;
+			color: black;
+			font-weight: normal;
+		}
+
+		#border1{
+			border: solid 0px #3EB489;
+			width: 250px;
+			background-color: #3EB489;
+			font-size: 18px;
+			padding: 10px;
+			color: white;
+		}
+		#border2{
+			border: solid 0px #e2e2e2;
+			width: 230px;
+			background-color: #e2e2e2;
+			font-size: 17px;
+			padding: 20px;
+		}
+
+		#border3{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border4{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border5{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border6{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+		#border7{
+			border: solid 0px white;
+			width: 250px;
+			background-color: white;
+			font-size: 18px;
+			padding: 10px;
+			color: black;
+		}
+
+		#sp1{
+			color: #3EB489;
+		}
+		
+		#sp1 a{
+			color: #3EB489;
+			text-decoration: none;
+		}
+		#sp1:hover a{
+			text-decoration: none;
+			color: #3EB489;
+		}
+		#sp1:hover{
+			color: #3EB489;
+			text-decoration: underline;
+		}
+
+		#sp2 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp2:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp2:hover{
+			color: black;
+			text-decoration: underline;
+		}
+
+		#sp3 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp3:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp3:hover{
+			color: black;
+			text-decoration: underline;
+		}
+
+		#sp4 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp4:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp4:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp5 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp5:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp5:hover{
+			color: black;
+			text-decoration: none;
+		}
+		#sp15 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp15:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp15:hover{
+			color: black;
+			text-decoration: none;
+		}
+		#sp16 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp16:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp16:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp17 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp17:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp17:hover{
+			color: black;
+			text-decoration: none;
+		}
+
+		#sp6 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp6:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp6:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp7 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp7:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp7:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp8 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp8:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp8:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp9 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp9:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp9:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp10 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp10:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp10:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp11 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp11:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp11:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp12 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp12:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp12:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp13 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp13:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp13:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sp14 a{
+			color: black;
+			text-decoration: none;
+		}
+		#sp14:hover a{
+			text-decoration: none;
+			color: black;
+		}
+		#sp14:hover{
+			color: black;
+			text-decoration: underline;
+		}
+		#sub1{
+			border: 0px solid #ffffff;
+			width: 1200px;
+			padding: 52px;
+		}
+		#span1{
+			font-size: 26px;
+			font-weight: bold;
+			margin-left: 17px;
+			margin-top: -40px;
+		}
+		#span2{
+			font-size: 14px;
+			margin-left: 30px;
+			margin-top: -60px;
+		}
+		#span3{
+			color: #a2a2a2;
+		}
+		#hr1{
+			width: 900px;
+			margin-top: 20px;
+			border: solid 1px black;
+		}
+		#hr2{
+			width: 900px;
+			border: lighter 1px black;
+		}
+
+
+		#im1{
+			margin-left: 20px;
+		}
+		#im2{
+			margin-left: 10px;
+		}
+		table{
+			border-collapse: collapse;
+			text-align: center;
+			margin-left: 280px;
+		}
+		td{
+			padding : 20px;
+			width: 180px;
+			height: 30px;
+			background-color: #f6f6f6;
+		}
+
+		td:hover{
+			background-color: #e2e2e2;
+		}
+
+		#td1{
+			background-color: white;
+			color: #051257;
+			font-weight: bold; 
+			border: 1px solid #051257;
+			border-bottom : 4px solid #051257;
+		}
+
+		#foot{
+			margin: 0 0 0 30px;
+		}
+
+		
+		
+
+	</style>
+</head>
+<body id="page">
+	<header>
+		<div id="logo">
+			<a href="./index.html"><img src="./img/kcdc.png"></a>
+		</div>
+		<div id="top">
+			로그인 | 회원가입 | <span id="me2"><a href="./8.html" target="_blank">마이페이지</a></span> | 고객센터
+		</div>
+	</header>
+	<div class="clear"></div>
+
+	<nav>
+		<ul>
+			<li><span id="me3"><a href="./dis2.html">감염병</a></span></li>
+			<li><span id="me4"><a href="./dis3.html">건강정보</a></span></li>
+			<li><span id="me5"><a href="./dis4.html">정책정보</a></span></li>
+			<li><span id="me1"><a href="./dis.html">연구개발</a></span></li>
+			<li>알림.자료</li>
+			<li>간행물.통계</li>
+			<li>민원.정보공개</li>
+			<li><span id="me6"><a href="./dis5.html">기관소개</a></span></li>
+			<li>사업별홈페이지</li>
+		</ul>
+	</nav>
+	<div class="clear"></div>
+
+	<aside id="left">
+		<span id="s1">정책정보</span>
+		<p></p>
+		<div id="border1">
+			감염병
+		</div>
+		<div id="border2">
+			· <span id="sp1"><a href="./dis4.html">감염병위기대응</a> -</span> <p>
+			· <span id="sp2"><a href="http://www.cdc.go.kr/contents.es?mid=a20301030000">수인성식품매개감염병관리</a></span> <p>
+			· <span id="sp3"><a href="http://www.cdc.go.kr/contents.es?mid=a20301040000">호흡기감염병관리</a></span> <p>
+			· <span id="sp6"><a href="http://www.cdc.go.kr/contents.es?mid=a20301050301">인수공통감염병관리</a></span> <p>
+			· <span id="sp7"><a href="http://www.cdc.go.kr/contents.es?mid=a20301060100">결핵관리</a></span> <p>
+			· <span id="sp8"><a href="http://www.cdc.go.kr/contents.es?mid=a20301070100">후천성면역결핍증관리</a></span> <p>
+			· <span id="sp9"><a href="http://www.cdc.go.kr/contents.es?mid=a20301080100">의료감염관리</a></span> <p>
+			· <span id="sp10"><a href="http://www.cdc.go.kr/contents.es?mid=a20301090101">감염병실험분석</a></span> <p>
+			· <span id="sp11"><a href="http://nqs.cdc.go.kr/nqs/main.do" target="_blank">검역관리</a></span> <p>
+			· <span id="sp12"><a href="http://www.cdc.go.kr/contents.es?mid=a20301110100">감염병감시체계</a></span> <p>
+			· <span id="sp13"><a href="http://www.cdc.go.kr/contents.es?mid=a20301140000">감염병정보화사업</a></span> <p>
+			· <span id="sp14"><a href="http://www.cdc.go.kr/contents.es?mid=a20301130000">시도감염병관리지원단</a></span> <p>
+		</div>
+		<p></p>
+		<div id="border3">
+			<span id="sp4"><a href="http://www.cdc.go.kr/contents.es?mid=a20302010000">생물안전</a></span>
+			<hr>
+		</div>
+		<div id="border4">
+			<span id="sp5"><a href="http://www.cdc.go.kr/contents.es?mid=a20303010401">만성질환</a></span>
+			<hr>
+		</div>
+		<div id="border5">
+			<span id="sp15"><a href="http://www.cdc.go.kr/contents.es?mid=a20304010500">기후변화</a></span>
+			<hr>
+		</div>
+		<div id="border6">
+			<span id="sp16"><a href="http://www.cdc.go.kr/contents.es?mid=a20305010000">의료방사선안전관리</a></span>
+			<hr>
+		</div>
+		<div id="border7">
+			<span id="sp17"><a href="http://www.cdc.go.kr/contents.es?mid=a20306010000">장기·조직·혈액관리</a></span>
+			<hr>
+		</div>
+	</aside>
+
+	<section id="sub1">
+		<span id="span1">감염병위기대응</span>
+		<hr id="hr1">
+		<span id="span2"><span id="span3">작성일</span> 2019-06-10 | <span id="span3">최종수정일</span> 2019-07-22 | <span id="span3">담당부서</span> 위기대응생물테러총괄과 | <span id="span3">연락처</span> 043-719-9386</span>
+		<hr id="hr2">
+		<p></p>
+
+
+	<table border="1">
+		<tr>
+			<td id="td1" style="cursor: hand" onclick="location.href='./dis4.html'">긴급상황센터</td><td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020200'">긴급상황실</td><td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020300'">감염병위기시대응체계</td><td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020400'">중앙역학조사관</td>
+		</tr>
+		<tr>
+			<td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020500'">감염병위기분석평가</td><td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020600'">국제협력네트워크</td><td style="cursor: hand" onclick="location.href='http://www.cdc.go.kr/contents.es?mid=a20301020704'">신종감염병관리</td><td style="cursor: hand" onclick="location.href='https://www.cdc.go.kr/board/board.es?mid=a20301021001&bid=0002&&cg_code=C01'">신종감염병현황</td>
+		</tr>
+	</table>
+	<p></p>
+		<span id="im1"><img src="./img/pp3.png" alt=""></span><p></p>
+	</section>
+
+	<footer>
+		<div id="foot">
+			<img src="./img/ft.png" alt="">
+		</div>
+	</footer>
+
+</body>
+</html>
